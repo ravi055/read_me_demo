@@ -20,4 +20,4 @@ jobs:
         uses: readmeio/rdme@v8
         with:
           rdme: openapi ./swagger/demo_test.json --key=${{ secrets.README_API_KEY }} --id=${{ secrets.API_DEFINITION_ID }}
-          rdme: openapi ./swagger/demo_test_copy.json --key=${{ secrets.README_API_KEY }} --id=${{ secrets.API_DEFINITION_ID_COPY }}
+              : openapi ./swagger/demo_test_copy.json --key=${{ secrets.README_API_KEY }} --id=${{ secrets.API_DEFINITION_ID_COPY }}
